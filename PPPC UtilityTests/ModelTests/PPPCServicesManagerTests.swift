@@ -37,7 +37,7 @@ class PPPCServicesManagerTests: XCTestCase {
         let actual = PPPCServicesManager()
 
         // then
-        XCTAssertEqual(actual.allServices.count, 21)
+        XCTAssertEqual(actual.allServices.count, 24)
     }
 
     func testUserHelp_withEntitlements() throws {

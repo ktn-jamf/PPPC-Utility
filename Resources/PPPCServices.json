@@ -10,6 +10,11 @@
         "englishDescription": "Allows specified apps to send a restricted AppleEvent to another process."
     },
     {
+        "mdmKey": "BluetoothAlways",
+        "englishName": "Bluetooth",
+        "englishDescription": "Allows specified apps access to Bluetooth devices."
+    },
+    {
         "mdmKey": "Calendar",
         "englishName": "Calendars",
         "englishDescription": "Allows specified apps access to event information managed by Calendar.",
@@ -180,6 +185,16 @@
             "com.apple.security.files.user-selected.read-only",
             "com.apple.security.files.user-selected.read-write"
         ]
+    },
+    {
+        "mdmKey": "SystemPolicyAppBundles",
+        "englishName": "App Bundles",
+        "englishDescription": "Allows specified apps to update or delete other apps. Available in macOS 13 and later."
+    },
+    {
+        "mdmKey": "SystemPolicyAppData",
+        "englishName": "App Data",
+        "englishDescription": "Allows specified apps access to the data of other apps."
     },
     {
         "mdmKey": "SystemPolicySysAdminFiles",
